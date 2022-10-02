@@ -39,6 +39,6 @@ interface Hoge {
     b: string | null,
     c?: string, //cがなくてもerrがでない
     //...
-}
+};
+let v: Hoge = { a: 2, b: null}; // <- cがなくともエラーをはかない
 
-let v: Hoge = { a: 2, b: null}
